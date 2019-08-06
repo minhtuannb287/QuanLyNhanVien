@@ -75,6 +75,10 @@ public class MainActivity extends AppCompatActivity {
                     //Menu
                     setTitle("Chat");
                 }
+                else if(tab.getPosition() == 4){
+                    //Menu
+                    setTitle("Gallery");
+                }
             }
 
             @Override
